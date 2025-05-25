@@ -9,8 +9,8 @@ import sys
 
 # -- Konfigurasi eksperimen --
 SERVER_SCRIPTS = {
-    "thread":   "multithread_pool.py",
-    "process":  "multiprocess_pool.py"
+    "thread":   "threadpool.py",
+    "process":  "processpool.py"
 }
 SERVER_WORKERS_OPTIONS = [1, 5, 50]       # opsi jumlah worker server
 CLIENT_WORKERS_OPTIONS = [1, 5, 50]       # opsi jumlah client pool
